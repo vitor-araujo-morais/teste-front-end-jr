@@ -1,0 +1,21 @@
+.select_all_section{
+    display: flex;
+    justify-content: space-around;
+    padding: 11px;
+    box-shadow: 0px 8px 16px rgba(57, 48, 19, 0.12);
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    color: #9F9F9F;
+    font-size: 12px;
+    font-family: Poppins-Medium;
+}
+
+.offers{
+    color: #F71963;
+}
+
+.select_all_section > p:hover{
+    color: #F71963;
+    cursor: pointer;
+}

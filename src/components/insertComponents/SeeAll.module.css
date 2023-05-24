@@ -1,0 +1,8 @@
+.main_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3F3F40;
+    font-size: 15px;
+    font-family: Poppins-Bold;
+}

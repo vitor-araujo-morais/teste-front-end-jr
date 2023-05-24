@@ -1,0 +1,56 @@
+.select_all_section{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 69px 5% 69px 5%;
+gap: 10px;
+}
+
+.background_store{
+    position: relative;
+    width: 590px;
+    height: 284px;
+    border-radius: 10px;
+    background-image: url("./images/Store.png");
+}
+
+.title{
+    position: absolute;
+    left: 39px;
+    top: 48px;
+    font-size: 40px;
+    font-family: Poppins-Bold;
+    color: #FFFFFF;
+}
+
+.caption{
+    position: absolute;
+    left: 39px;
+    top: 48px;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+    color: #FFFFFF;
+    left: 40px;
+    top: 117px;
+}
+
+.background_store button{
+    position: absolute;
+    left: 39px;
+    top: 197px;
+    background-color: #F71963;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Poppins-Bold;
+    width: 135px;
+    height: 48px;
+    box-shadow: none;
+    border: none;
+}
+
+.background_store button:hover{
+    cursor: pointer;
+    background-color: #f32167;
+}

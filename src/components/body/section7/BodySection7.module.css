@@ -1,0 +1,55 @@
+.select_all_section{
+    display:  flex;
+    flex-wrap: wrap;
+    margin: 70px 5% 70px 5%;
+    justify-content: space-around;
+   gap: 10px;
+}
+
+.background_apple{
+    position: relative;
+    background-image: url("./images/Apple.png");
+    width: 574px;
+    height: 350px;
+   border-radius: 25px; 
+   color: white
+}   
+
+.title{
+    position: absolute;
+    top: 114px;
+    left: 40px;
+    font-size: 40px;
+    font-family: Poppins-Bold;
+}
+
+.caption{
+    position: absolute;
+    top: 182px;
+    left: 40px;
+    font-size: 16px;
+    font-family: Poppins-Medium;
+}
+
+.background_apple button{
+    width: 131px;
+    height: 48px;
+    background-color: #F71963;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Poppins-Bold;
+    box-shadow: none;
+    border: none;
+    position: absolute;
+    left: 40px;
+    bottom: 52px;
+}
+
+.background_apple button:hover{
+    background-color: #f32167;
+    cursor: pointer;
+}

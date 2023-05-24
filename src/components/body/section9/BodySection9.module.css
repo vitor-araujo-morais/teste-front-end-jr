@@ -1,0 +1,34 @@
+.select_all_section{
+    margin: 155px 5% 104px 5%;
+    
+}
+
+.main_title{
+display: flex;
+justify-content: center;
+color: #F71963;
+font-size: 30px;
+font-family: Poppins-Bold;
+margin-bottom: 60px;
+align-items: center;
+align-content: center;
+}
+
+.set_of_brands{
+    display: flex;
+    overflow: auto;
+    scroll-behavior: smooth;   
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.brand{
+    width: 211px;
+    height: 211px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}

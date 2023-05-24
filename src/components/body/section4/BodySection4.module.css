@@ -1,0 +1,34 @@
+@media(max-width:450px){
+
+    .product_text{
+        font-size: 20px;
+        white-space: normal;
+       align-content: center;
+    
+    }
+}
+
+.select_all_section{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    white-space: nowrap;
+    align-items: center;
+    gap: 25px;
+    align-content: center;
+}
+
+
+.line{
+   
+    width: 100%;
+    height: 1px;
+    background-color:#DEDEDE;
+}
+
+.product_text{
+    color: #F71963;
+    
+    font-size: 30px;
+    font-family: Poppins-Bold;
+}

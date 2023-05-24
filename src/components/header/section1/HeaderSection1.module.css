@@ -1,0 +1,39 @@
+@media(max-width:600px){
+    .icons{
+        display: none;
+    }
+}
+
+.select_all_section{
+    display: flex;
+    border-bottom: 1px solid #F0F0F0;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+}
+
+.column_header{
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+    object-fit: cover;
+    font-family: Poppins-Bold;
+    padding: 7px;
+}
+
+.text_column1{
+    color: #F71963;
+}
+
+.text_column2{
+    color:#9F9F9F;
+}
+
+.offers > .select_all_section{
+    color:#F71963;
+}
+
+.icons{
+    object-fit: cover;
+    height: 20px;
+}

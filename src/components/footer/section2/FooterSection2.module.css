@@ -1,0 +1,24 @@
+.select_all_section{
+    display: grid;
+    background-color: #2A2A2A;
+    border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 22px 5% 22px 5%;
+    font-size: 13px;
+    font-family: Poppins-Light;
+    text-transform: uppercase;
+    font-weight: 200;
+    grid-template-columns: 2fr 1fr;
+}
+
+copyright_text{
+    grid-column: 1;
+}
+
+.copyright_images{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 3%;
+}

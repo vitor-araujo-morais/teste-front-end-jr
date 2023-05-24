@@ -1,0 +1,79 @@
+
+
+.product_card{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+    padding: 11px;
+}
+
+.gross_value{
+    font-size: 15px;
+    color:#808080;
+    font-family: Poppins-Medium;
+    text-decoration-line: line-through;
+}
+
+.product_name{
+    font-size: 16px;
+    font-family: Poppins-Medium;
+    color: #3F3F40;
+    margin-bottom: 2px;
+}
+
+.value_with_discount{
+    color: #3F3F40;
+    font-family: Poppins-Bold;
+    font-size: 20px;
+}
+
+.amount_in_installments{
+    color: #3F3F40;
+    font-size: 12px;
+    font-family: Poppins-Medium;
+}
+
+.shipping_text{
+    color: #F71963;
+    font-size: 12px;
+    font-family: Poppins-Medium;
+}
+
+.buy_button{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    background: #F71963;
+    font-family: Poppins-Bold;
+    font-size: 14px;
+    color:  #FFFFFF;
+    border: none;
+    box-shadow: none;
+}
+
+.buy_button:hover{
+    cursor: pointer;
+    background-color: #f32167;
+}
+
+.modal_overlay {
+    background: rgba(0, 0, 0, 0.54);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal_content {
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }

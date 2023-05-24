@@ -1,0 +1,42 @@
+.select_all_section{
+    display: flex;
+    justify-content: space-around;
+    margin: 34px 5% 34px 5%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service_themes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins-Medium;
+    color: #4E4E4E;
+}
+.service_card:hover{
+    background-color:#fefcfc;
+    cursor: pointer;
+}
+
+.service_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 128px;
+    border-radius: 10px;
+    background-color:#F4F4F4;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.13);
+}
+
+.service_images{
+    height: 61px;
+    width: 61px;
+}
+
+
+.tecnologia{
+    color: #F71963;
+}

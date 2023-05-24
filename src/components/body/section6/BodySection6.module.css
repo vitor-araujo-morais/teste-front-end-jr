@@ -1,0 +1,40 @@
+.select_all_section{
+    display: flex;
+    margin: 17px 17px;
+    gap: 40px;
+    align-items: center;
+   
+
+}
+
+.all_cards{
+    overflow-x: auto;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+.inner{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.all_cards::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.left_arrow{
+    width: 20px;
+    height: 34px;
+    cursor: pointer;
+
+}
+
+.right_arrow{
+    width: 20px;
+    height: 34px;
+    cursor: pointer;
+
+}

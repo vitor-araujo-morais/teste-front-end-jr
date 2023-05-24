@@ -1,0 +1,46 @@
+@media (max-width:450px){
+    .product_views{
+        display: none;
+    }
+}
+
+.select_all_section{
+    background-image: url('./images/background.png');
+    height: 395px;
+    width: 100%;
+    font-family: Poppins-Medium;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.main_title{
+    font-size: 48px;
+}
+
+.caption{
+    font-size: 36px;
+}
+
+.product_views{
+    background: #F71963;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    width: 227px;
+    height: 60px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Poppins-Regular;
+    font-weight: 600;
+}
+
+.product_views:hover{
+    cursor: pointer;
+    background-color: #f32167;
+}
+
+.content{
+    padding: 3.9%;
+    padding-left: 5.1%;
+}
