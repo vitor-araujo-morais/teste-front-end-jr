@@ -2,6 +2,8 @@
 
 <h3>Para iniciar e testar o projeto vou listar aqui um passo a passo.</h3>
 
+<div><b>Entre no terminal</b> e vá até a pasta onde estão os arquivos</div><br>
+
 <div><b>Instale as dependências</b> do projeto executando o comando <b>npm install</b> ou <b>yarn install</b>.
  Esse comando irá baixar e instalar todas as dependências listadas no arquivo package.json do seu projeto.</div><br>
 
