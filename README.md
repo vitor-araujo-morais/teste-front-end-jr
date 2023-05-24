@@ -8,6 +8,6 @@
  Esse comando irá baixar e instalar todas as dependências listadas no arquivo package.json do seu projeto.</div><br>
 
 <div> <b>Para rodar o projeto React</b> em modo de desenvolvimento, execute o comando <b>npm start</b> ou <b>yarn start</b>.
-Esse comando irá iniciar o servidor de desenvolvimento e abrir o projeto no seu navegador padrão. </div>
+Esse comando irá iniciar o servidor de desenvolvimento e abrir o projeto no seu navegador padrão. </div><br>
 
 <b>Link do projeto hospedado: </b><a>https://teste-front-end-jr-self.vercel.app/</a>
