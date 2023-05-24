@@ -9,3 +9,5 @@
 
 <div> <b>Para rodar o projeto React</b> em modo de desenvolvimento, execute o comando <b>npm start</b> ou <b>yarn start</b>.
 Esse comando irá iniciar o servidor de desenvolvimento e abrir o projeto no seu navegador padrão. </div>
+
+<b>Link do projeto hospedado: </b><a>https://teste-front-end-jr-self.vercel.app/</a>
